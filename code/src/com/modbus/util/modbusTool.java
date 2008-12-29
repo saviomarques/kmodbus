@@ -6,7 +6,7 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class modbusTool {
+public class ModbusTool {
 
     private String ip_adrs;//IP地址
     private String Port;//链接端口
@@ -22,7 +22,7 @@ public class modbusTool {
      * @throws java.net.UnknownHostException
      * @throws java.io.IOException
      */
-    public modbusTool(String ip_adrs, String Port, char[] bwt) throws UnknownHostException, IOException {
+    public ModbusTool(String ip_adrs, String Port, char[] bwt) throws UnknownHostException, IOException {
         this.ip_adrs = ip_adrs;
         this.Port = Port;
         this.bwt = bwt;
