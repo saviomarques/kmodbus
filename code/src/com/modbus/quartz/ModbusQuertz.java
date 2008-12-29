@@ -54,4 +54,70 @@ public class ModbusQuertz {
     public void stopTask() throws SchedulerException {
         this.scheduler.shutdown();
     }
+
+    public String getCronTriggerName() {
+        return cronTriggerName;
+    }
+
+    public void setCronTriggerName(String cronTriggerName) {
+        this.cronTriggerName = cronTriggerName;
+    }
+
+    public String getJobDetailGroupName() {
+        return jobDetailGroupName;
+    }
+
+    public void setJobDetailGroupName(String jobDetailGroupName) {
+        this.jobDetailGroupName = jobDetailGroupName;
+    }
+
+    public String getJobDetailName() {
+        return jobDetailName;
+    }
+
+    public void setJobDetailName(String jobDetailName) {
+        this.jobDetailName = jobDetailName;
+    }
+
+    public Class getRunMethod() {
+        return runMethod;
+    }
+
+    public void setRunMethod(Class runMethod) {
+        this.runMethod = runMethod;
+    }
+
+    public String getRunTimeSet() {
+        return runTimeSet;
+    }
+
+    public void setRunTimeSet(String runTimeSet) {
+        this.runTimeSet = runTimeSet;
+    }
+
+    public Scheduler getScheduler() {
+        return scheduler;
+    }
+
+    public void setScheduler(Scheduler scheduler) {
+        this.scheduler = scheduler;
+    }
+
+    public SchedulerFactory getSchedulerFactory() {
+        return schedulerFactory;
+    }
+
+    public void setSchedulerFactory(SchedulerFactory schedulerFactory) {
+        this.schedulerFactory = schedulerFactory;
+    }
+
+    public String getTriggerGroupName() {
+        return triggerGroupName;
+    }
+
+    public void setTriggerGroupName(String triggerGroupName) {
+        this.triggerGroupName = triggerGroupName;
+    }
+
+    
 }
